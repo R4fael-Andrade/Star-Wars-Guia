@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="assets/millennium-falcon.png" type="image/x-icon">
+    <title>Star Wars Planetas</title>
+</head>
+<body>
+
+   <header>
+
+    <div class="navigation">
+        <nav>
+
+            <a href="./index.html">
+                <div class="logo">
+                    <img src="./assets/star-wars-logo.png" alt="logo" class="logo-img"/>
+                    <span class="logo-text">Characters</span>
+                </div>
+            </a>
+        
+            <a href="./planetas.html">
+                <div class="logo">
+                    <img src="./assets/star-wars-planet.png" alt="logo" class="logo-img"/>
+                    <span class="logo-text">Planetas</span>
+                </div>
+            </a>
+        
+            <a href="./racas.html">
+                <div class="logo">
+                    <img src="./assets/baby-yoda-logo.png" alt="logo" class="logo-img"/>
+                    <span class="logo-text">Racas</span>
+                </div>
+            </a>
+        
+            <div class="social-media">
+                <a href="https://www.instagram.com/rafael.anddrade_/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+             
+                <a href="https://github.com/R4fael-Andrade" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rafael-andrade-48b4a9293/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                
+            </div>
+
+        </nav>
+    </div>
+    
+   </header>
+
+   <div class="main-container">
+    <h2 class="titulo">Conheca todos os personagens de Star Wars em um so lugar</h2>
+    <div class="main-content" id="main-content-planets"> </div>
+
+    <div class="modal" id="modal-planet" onclick="hideModal()">
+        <div class="modal-content" id="modal-content-planet"></div>
+    </div>
+
+    <div class="buttons">
+        <button id="back-button-planet" disabled>Anterior</button>
+        <button id="next-button-planet" disabled>Próxima</button>
+    </div>
+
+   </div>
+
+   <footer>
+    <p class="footer-logo">Star Wars Characters</p>
+    <p class="copyright">Desenvolvido por &copy; Rafael Andrade</p>
+   </footer>
+
+    <script src="https://kit.fontawesome.com/9d494598d5.js" crossorigin="anonymous"></script>
+    <script src="./planets.js"></script>
+</body>
+</html>
